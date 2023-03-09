@@ -1,0 +1,10 @@
+#https://www.youtube.com/watch?v=_Qhe1rETqGg&list=PLlahAO-uyDzJ7sWdvD_j0eyvbKtf-1quq&index=3&ab_channel=TechMasterVietnam
+
+#Install jenkins
+
+docker run -d --name jenkins -p 8080:8080 -p 50000:50000 -v ./var/jenkins_home jenkins/jenkins:lts
+
+Expose port 8080
+cd C:\Users\Tacristiano\Downloads\ngrok-v3-stable-windows-amd64
+ngrok 8080
+
