@@ -1,3 +1,4 @@
+#https://www.youtube.com/watch?v=vaOROl_HYYs&list=PLlahAO-uyDzJ7sWdvD_j0eyvbKtf-1quq&index=3&ab_channel=TechMasterVietnam
 #https://www.youtube.com/watch?v=_Qhe1rETqGg&list=PLlahAO-uyDzJ7sWdvD_j0eyvbKtf-1quq&index=3&ab_channel=TechMasterVietnam
 
 #Install jenkins
@@ -8,3 +9,7 @@ Expose port 8080
 cd C:\Users\Tacristiano\Downloads\ngrok-v3-stable-windows-amd64
 ngrok 8080
 
+# ssh jenkins bash
+docker exec -it jenkins bash
+
+cd /var/jenkins_home/workspace/Connect\ github/
